@@ -35,7 +35,7 @@ format:
 - Ce que je peux déjà dire:
   - Correctif disponible àpd d'aujourd'hui
   - Je n'interrogerai oralement que les volontaires et ceux qui bavardent pendant que je parle
-  - Ceux qui trouvent le rythme trop lent, les exercices trop rapides: avancez dans le cours en autonomie! ;-) 
+  - Ceux qui trouvent le rythme trop lent, les exercices trop faciles: avancez dans le cours en autonomie! ;-) 
 
 
 # Parité
