@@ -1,0 +1,324 @@
+[
+  {
+    "objectID": "slides.html#fxsqrtx7",
+    "href": "slides.html#fxsqrtx7",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)=\\sqrt{x+7}\\)",
+    "text": "\\(f(x)=\\sqrt{x+7}\\)"
+  },
+  {
+    "objectID": "slides.html#somme-et-différence",
+    "href": "slides.html#somme-et-différence",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Somme et différence",
+    "text": "Somme et différence\n\\((f\\pm g)\\) est la fonction définie par\n\\[\n(f\\pm g)(x)=f(x)\\pm g(x).\n\\]\nDe plus, \\(\\text{dom}{\\left(f\\pm g\\right)}=\\text{dom}{\\left(f\\right)}\\cap \\text{dom}{\\left(g\\right)}\\)."
+  },
+  {
+    "objectID": "slides.html#produit",
+    "href": "slides.html#produit",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Produit",
+    "text": "Produit\n\\((f\\cdot  g)\\) est la fonction définie par\n\\[\n(f\\cdot g)(x)=f(x)\\cdot g(x).\n\\]\nDe plus, \\(\\text{dom}{\\left(f\\cdot g\\right)}=\\text{dom}{\\left(f\\right)}\\cap \\text{dom}{\\left(g\\right)}\\)."
+  },
+  {
+    "objectID": "slides.html#quotient",
+    "href": "slides.html#quotient",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Quotient",
+    "text": "Quotient\n\\(\\dfrac{f}{g}\\) est la fonction définie par\n\\[\n\\left(\\dfrac{f}{g}\\right)(x)=\\dfrac{f(x)}{g(x)}.\n\\]\nDe plus, \\(\\text{dom}{\\left(\\dfrac{f}{g}\\right)}=\\text{dom}{\\left(f\\right)}\\cap \\text{dom}{\\left(g\\right)}\\backslash\\{x\\in\\text{dom}{\\left(g\\right)}|g(x)=0\\}\\)."
+  },
+  {
+    "objectID": "slides.html#composition",
+    "href": "slides.html#composition",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Composition",
+    "text": "Composition\n\\(f\\circ g\\) est la fonction définie par\n\\[\n(f\\circ g)(x)=f(g(x))\n\\]\nDe plus, \\(\\text{dom}{\\left(f\\cdot g\\right)}=\\{x\\in\\text{dom}{\\left(g\\right)}|g(x)\\in\\text{dom}{\\left(f\\right)}\\}\\)\nAttention!: la composée n’est pas une opération commutative: \\(f\\circ g\\neq g\\circ g\\)."
+  },
+  {
+    "objectID": "slides.html#exercice-2.2.b-p.-9",
+    "href": "slides.html#exercice-2.2.b-p.-9",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 2.2.B) (p. 9)",
+    "text": "Exercice 2.2.B) (p. 9)\nSoient \\(f\\) et \\(g\\) deux fonctions. Déterminer une expression analytique de \\(f\\circ g\\) et \\(g\\circ f\\).\n\n\\(f(x)=x^2\\) et \\(g(x)=\\cos(x)\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-2.2.b",
+    "href": "slides.html#exercice-2.2.b",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 2.2.B)",
+    "text": "Exercice 2.2.B)\nSoient \\(f\\) et \\(g\\) deux fonctions. Déterminer une expression analytique de \\(f\\circ g\\) et \\(g\\circ f\\).\n\n\\(f(x)=\\sqrt{x}\\) et \\(g(x)=\\ln(x)\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-2.2.b-1",
+    "href": "slides.html#exercice-2.2.b-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 2.2.B)",
+    "text": "Exercice 2.2.B)\nSoient \\(f\\) et \\(g\\) deux fonctions. Déterminer une expression analytique de \\(f\\circ g\\) et \\(g\\circ f\\).\n\n\\(f(x)=\\dfrac{x-1}{1+x}\\) et \\(g(x)=x^3\\)"
+  },
+  {
+    "objectID": "slides.html#exercice-2.2.b-2",
+    "href": "slides.html#exercice-2.2.b-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exercice 2.2.B)",
+    "text": "Exercice 2.2.B)\nSoient \\(f\\) et \\(g\\) deux fonctions. Déterminer une expression analytique de \\(f\\circ g\\) et \\(g\\circ f\\).\nPrépa:\n\n\\(f(x)=\\text{e}^x\\) et \\(g(x)=42\\ln(x)\\)\n\\(f(x)=\\sin(2x)\\) et \\(g(x)=4-7x\\)\n\\(f(x)=\\sin(x)\\) et \\(g(x)=|1-x|\\)"
+  },
+  {
+    "objectID": "slides.html#réciproque-dune-fonction",
+    "href": "slides.html#réciproque-dune-fonction",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Réciproque d’une fonction",
+    "text": "Réciproque d’une fonction\nDéfinition: Soit \\(f\\) une fonction. La réciproque de \\(f\\) est une fonction (si elle existe) \\(g\\) telle que \\(f\\circ g=g\\circ f=\\text{Id}\\).\nGraphiquement, la réciproque de \\(f\\) est s’obtient par symétrique d’axe \\(x=y\\)."
+  },
+  {
+    "objectID": "slides.html#réciproque-dune-fonction-1",
+    "href": "slides.html#réciproque-dune-fonction-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Réciproque d’une fonction",
+    "text": "Réciproque d’une fonction\nExemple: \\(x^3\\) a pour réciproque \\(\\sqrt[3]{x}\\)."
+  },
+  {
+    "objectID": "slides.html#réciproque-dune-fonction-2",
+    "href": "slides.html#réciproque-dune-fonction-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Réciproque d’une fonction",
+    "text": "Réciproque d’une fonction\nExemple: \\(x^2\\) n’a pas de réciproque. Mais restreinte à \\(\\mathbb{R}^{\\ge 0}\\), alors \\(x^2\\) a une réciproque, la fonction \\(\\sqrt{x}\\)."
+  },
+  {
+    "objectID": "slides.html#déterminer-algébriquement-une-réciproque-2.2.c",
+    "href": "slides.html#déterminer-algébriquement-une-réciproque-2.2.c",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Déterminer algébriquement une réciproque (2.2.C)",
+    "text": "Déterminer algébriquement une réciproque (2.2.C)\n\\(f(x)=2x+3\\)"
+  },
+  {
+    "objectID": "slides.html#fxx2",
+    "href": "slides.html#fxx2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)=|x|+2\\)",
+    "text": "\\(f(x)=|x|+2\\)"
+  },
+  {
+    "objectID": "slides.html#fxdfrac1-xx",
+    "href": "slides.html#fxdfrac1-xx",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "\\(f(x)=\\dfrac{1-x}{x}\\)",
+    "text": "\\(f(x)=\\dfrac{1-x}{x}\\)"
+  },
+  {
+    "objectID": "slides.html#reste-prépa",
+    "href": "slides.html#reste-prépa",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Reste: prépa",
+    "text": "Reste: prépa\n\n\\(f(x)=x^2-6x+9\\)\n\\(\\dfrac{2x+1}{x+3}\\)\n\\(f(x)=\\sqrt[3]{x+1}\\)"
+  },
+  {
+    "objectID": "slides.html#exponentielles",
+    "href": "slides.html#exponentielles",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exponentielles",
+    "text": "Exponentielles\nSoit \\(a\\in\\mathbb{R}^{&gt;0}\\backslash\\{1\\}\\) une base. L’exponentielle de base \\(a\\), notée \\(a^x\\), est une fonction dérivable qui prolonge les exposants de base \\(a\\)."
+  },
+  {
+    "objectID": "slides.html#exponentielles-1",
+    "href": "slides.html#exponentielles-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exponentielles",
+    "text": "Exponentielles\nSoit \\(a\\in\\mathbb{R}^{&gt;0}\\backslash\\{1\\}\\) une base. Les propriétés algébriques de \\(a^x\\) sont: pour \\(m,n\\in\\mathbb{R}\\)\n\n\\(a^0=1\\)\n\\(a^{m+n}=a^ma^n\\)\n\\(a^{m-n}=\\dfrac{a^m}{a^n}\\)\n\\(a^{-m}=\\dfrac{1}{a^m}\\)\n\\((a^m)^n=a^{mn}\\)\n\nLa deuxième propriété dit: l’exponentielle transforme une somme ne un produit. En conséquence, une exponentielle croît ou décroît très vite."
+  },
+  {
+    "objectID": "slides.html#logarithmes",
+    "href": "slides.html#logarithmes",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Logarithmes",
+    "text": "Logarithmes\nSoit \\(a\\in\\mathbb{R}^{&gt;0}\\backslash\\{1\\}\\) une base. Le logarithme de base \\(a\\), noté \\(\\log_a(x)\\), est la réciproque de \\(a^x\\)."
+  },
+  {
+    "objectID": "slides.html#logarithmes-1",
+    "href": "slides.html#logarithmes-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Logarithmes",
+    "text": "Logarithmes\nSoit \\(a\\in\\mathbb{R}^{&gt;0}\\backslash\\{1\\}\\) une base. Les propriétés algébriques de \\(\\log_a(x)\\) sont obtenue par traduction de celles de \\(a^x\\): pour \\(m,n\\in\\mathbb{R}\\)\n\n\\(\\log_a(a^x)=x\\) et \\(a^{\\log_a(x)}=x\\)\n\\(\\log_a(1)=0\\)\n\\(\\log_a(mn)=\\log_a(m)+\\log_a(n)\\)\n\\(\\log_a(m/n)=\\log_a(m)-\\log_a(n)\\)\n\\(\\log_a(x^m)=m\\log_a(x)\\)\nsi \\(b\\) est une autre base: \\(\\log_b(x)=\\dfrac{\\log_a(x)}{\\log_a(b)}\\)"
+  },
+  {
+    "objectID": "slides.html#exponentielle-et-logarithme-népérien",
+    "href": "slides.html#exponentielle-et-logarithme-népérien",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "Exponentielle et logarithme népérien",
+    "text": "Exponentielle et logarithme népérien\nUne base est particulière: la base \\(\\text{e}\\simeq 2,718281828459045\\). Pour cette base on note l’exponentielle \\(\\text{e}^x\\) et le logarithme \\(\\ln(x)\\)."
+  },
+  {
+    "objectID": "slides.html#a-page-9",
+    "href": "slides.html#a-page-9",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.A) (page 9)",
+    "text": "2.3.A) (page 9)\nSoient \\(a\\), \\(b\\) et \\(c\\) trois réels strictement positifs et différents de \\(1\\). Prouvez que \\({\\log_a(b) \\times \\log_b(c) \\times \\log_c (a) = 1}\\)."
+  },
+  {
+    "objectID": "slides.html#b-page-9",
+    "href": "slides.html#b-page-9",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.B) (page 9)",
+    "text": "2.3.B) (page 9)\nExprimez les logarithmes suivants en fonction de multiples de \\(\\ln (2)\\), \\(\\ln (3)\\) ou \\(\\ln (5)\\) :\n\n\\({\\ln (4)}\\)"
+  },
+  {
+    "objectID": "slides.html#b-page-9-1",
+    "href": "slides.html#b-page-9-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.B) (page 9)",
+    "text": "2.3.B) (page 9)\nExprimez les logarithmes suivants en fonction de multiples de \\(\\ln (2)\\), \\(\\ln (3)\\) ou \\(\\ln (5)\\) :\n\n\\({\\ln (6)}\\)"
+  },
+  {
+    "objectID": "slides.html#b-page-9-2",
+    "href": "slides.html#b-page-9-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.B) (page 9)",
+    "text": "2.3.B) (page 9)\nExprimez les logarithmes suivants en fonction de multiples de \\(\\ln (2)\\), \\(\\ln (3)\\) ou \\(\\ln (5)\\) :\n\n\\({\\ln (8)}\\)"
+  },
+  {
+    "objectID": "slides.html#b-page-9-3",
+    "href": "slides.html#b-page-9-3",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.B) (page 9)",
+    "text": "2.3.B) (page 9)\nExprimez les logarithmes suivants en fonction de multiples de \\(\\ln (2)\\), \\(\\ln (3)\\) ou \\(\\ln (5)\\) :\n\n\\({\\ln (9)}\\)"
+  },
+  {
+    "objectID": "slides.html#b-page-9-4",
+    "href": "slides.html#b-page-9-4",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.B) (page 9)",
+    "text": "2.3.B) (page 9)\nExprimez les logarithmes suivants en fonction de multiples de \\(\\ln (2)\\), \\(\\ln (3)\\) ou \\(\\ln (5)\\) :\n\n\\({\\ln (10)}\\)"
+  },
+  {
+    "objectID": "slides.html#b-page-9-5",
+    "href": "slides.html#b-page-9-5",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.B) (page 9)",
+    "text": "2.3.B) (page 9)\nExprimez les logarithmes suivants en fonction de multiples de \\(\\ln (2)\\), \\(\\ln (3)\\) ou \\(\\ln (5)\\) :\n\n\\({\\ln (0,5)}\\)"
+  },
+  {
+    "objectID": "slides.html#b-page-9-6",
+    "href": "slides.html#b-page-9-6",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.B) (page 9)",
+    "text": "2.3.B) (page 9)\nLe reste est à faire à la maison."
+  },
+  {
+    "objectID": "slides.html#c-page-9",
+    "href": "slides.html#c-page-9",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.C) (page 9)",
+    "text": "2.3.C) (page 9)\nEn sachant que \\(\\log (2) \\simeq 0,301\\), déterminez ce que vaut approximativement :\n\n\\({\\log (4)}\\)"
+  },
+  {
+    "objectID": "slides.html#c-page-9-1",
+    "href": "slides.html#c-page-9-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.C) (page 9)",
+    "text": "2.3.C) (page 9)\nEn sachant que \\(\\log (2) \\simeq 0,301\\), déterminez ce que vaut approximativement :\n\n\\({\\log (0,2)}\\)"
+  },
+  {
+    "objectID": "slides.html#c-page-9-2",
+    "href": "slides.html#c-page-9-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.C) (page 9)",
+    "text": "2.3.C) (page 9)\nEn sachant que \\(\\log (2) \\simeq 0,301\\), déterminez ce que vaut approximativement :\n\n\\({\\log \\left(\\frac{1}{16}\\right)}\\)"
+  },
+  {
+    "objectID": "slides.html#c-page-9-3",
+    "href": "slides.html#c-page-9-3",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.C) (page 9)",
+    "text": "2.3.C) (page 9)\nEn sachant que \\(\\log (2) \\simeq 0,301\\), déterminez ce que vaut approximativement :\n\n\\({\\log (0,00064)}\\)"
+  },
+  {
+    "objectID": "slides.html#c-page-9-4",
+    "href": "slides.html#c-page-9-4",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.C) (page 9)",
+    "text": "2.3.C) (page 9)\nLe reste est à faire à la maison."
+  },
+  {
+    "objectID": "slides.html#d-page-9",
+    "href": "slides.html#d-page-9",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.D) (page 9)",
+    "text": "2.3.D) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({\\ln (x) = 8}\\)"
+  },
+  {
+    "objectID": "slides.html#d-page-9-1",
+    "href": "slides.html#d-page-9-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.D) (page 9)",
+    "text": "2.3.D) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({\\ln (x+1) = 4}\\)"
+  },
+  {
+    "objectID": "slides.html#d-page-9-2",
+    "href": "slides.html#d-page-9-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.D) (page 9)",
+    "text": "2.3.D) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({\\log \\left(\\frac{5}{x}\\right) = 2}\\)"
+  },
+  {
+    "objectID": "slides.html#d-page-9-3",
+    "href": "slides.html#d-page-9-3",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.D) (page 9)",
+    "text": "2.3.D) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({\\log (x - 5) =0}\\)"
+  },
+  {
+    "objectID": "slides.html#d-page-9-4",
+    "href": "slides.html#d-page-9-4",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.D) (page 9)",
+    "text": "2.3.D) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({\\ln (2x-3) - \\ln (x-4) = 2 \\ln (5)}\\)"
+  },
+  {
+    "objectID": "slides.html#d-page-9-5",
+    "href": "slides.html#d-page-9-5",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.D) (page 9)",
+    "text": "2.3.D) (page 9)\nLe reste est à faire à la maison."
+  },
+  {
+    "objectID": "slides.html#e-page-9",
+    "href": "slides.html#e-page-9",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.E) (page 9)",
+    "text": "2.3.E) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({\\text{e}^{4x -1} =0}\\)"
+  },
+  {
+    "objectID": "slides.html#e-page-9-1",
+    "href": "slides.html#e-page-9-1",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.E) (page 9)",
+    "text": "2.3.E) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({10^{2x} = 20}\\)"
+  },
+  {
+    "objectID": "slides.html#e-page-9-2",
+    "href": "slides.html#e-page-9-2",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.E) (page 9)",
+    "text": "2.3.E) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({\\text{e}^{2x} - \\text{e}^{2x+1} +1 = e}\\)"
+  },
+  {
+    "objectID": "slides.html#e-page-9-3",
+    "href": "slides.html#e-page-9-3",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.E) (page 9)",
+    "text": "2.3.E) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({\\text{e}^{2x} + \\text{e}^x -2 = 0}\\)"
+  },
+  {
+    "objectID": "slides.html#e-page-9-4",
+    "href": "slides.html#e-page-9-4",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.E) (page 9)",
+    "text": "2.3.E) (page 9)\nRésolvez les équations suivantes dans \\(\\mathbb{R}\\) :\n\n\\({9 \\times 2^x = 4 \\times 3^x}\\)"
+  },
+  {
+    "objectID": "slides.html#e-page-9-5",
+    "href": "slides.html#e-page-9-5",
+    "title": "Introduction mathématique aux sciences de la vie",
+    "section": "2.3.E) (page 9)",
+    "text": "2.3.E) (page 9)\nLe reste est à faire à la maison."
+  }
+]
