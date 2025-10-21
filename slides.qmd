@@ -1,0 +1,324 @@
+---
+title: "Introduction mathématique aux sciences de la vie"
+subtitle: "Séance d'exercices du 22/10/25"
+lang: fr
+format: 
+ revealjs:
+      theme: [default, clean.scss]
+      qrcode: 'assets/qrcode.png'
+      pdfl: '[Télécharger le PDF](assets/slides.pdf){.pdf-link target="_blank"}'
+      menu:
+        side: left
+      slide-number: true
+      transition: fade
+      revealjs-plugins:
+        - tldreveal
+      template-partials:
+        - title-slide.html
+
+---
+::: {.content-hidden}
+
+\newcommand{\dom}[1]{\text{dom}{\left(#1\right)}}
+\newcommand{\IR}{\mathbb{R}}
+\newcommand{\e}{\text{e}}
+
+\newcommand{\vect}[1]{\overrightarrow{#1}}
+\newcommand{\nv}[1]{\lVert\overrightarrow{#1}\rVert}
+
+:::
+
+# Sondage
+
+- Merci d'y avoir répondu
+- Tout n'a pas été anlysé (77 pages de rapport)
+- Ce que je peux déjà dire:
+  - Correctif disponible àpd d'aujourd'hui
+  - Je n'interrogerai oralement que les volontaires et ceux qui bavardent pendant que je parle
+  - Ceux qui trouvent le rythme trop lent, les exercices trop rapides: avancez dans le cours en autonomie! ;-) 
+
+
+# Parité
+## $f(x)=\sqrt{x+7}$
+
+# Opérations sur les fonctions
+
+Soit $f$ et $g$ deux fonctions. Les opérations sur ces fonctions sont définie à travers leurs expressions analytiques:
+
+## Somme et différence
+$(f\pm g)$ est la fonction définie par 
+
+$$
+(f\pm g)(x)=f(x)\pm g(x).
+$$
+
+De plus, $\dom{f\pm g}=\dom{f}\cap \dom{g}$.
+
+
+## Produit
+
+$(f\cdot  g)$ est la fonction définie par 
+
+$$
+(f\cdot g)(x)=f(x)\cdot g(x).
+$$
+
+De plus, $\dom{f\cdot g}=\dom{f}\cap \dom{g}$.
+
+## Quotient
+
+$\dfrac{f}{g}$ est la fonction définie par 
+
+$$
+\left(\dfrac{f}{g}\right)(x)=\dfrac{f(x)}{g(x)}.
+$$
+
+De plus, $\dom{\dfrac{f}{g}}=\dom{f}\cap \dom{g}\backslash\{x\in\dom{g}|g(x)=0\}$.
+
+## Composition
+
+$f\circ g$ est la fonction définie par
+
+$$
+(f\circ g)(x)=f(g(x))
+$$
+
+De plus, $\dom{f\cdot g}=\{x\in\dom{g}|g(x)\in\dom{f}\}$
+
+**Attention!:** la composée n'est pas une opération commutative: $f\circ g\neq g\circ g$.
+
+## Exercice 2.2.B) (p. 9)
+Soient $f$ et $g$ deux fonctions. Déterminer une expression analytique de $f\circ g$ et $g\circ f$.
+
+- $f(x)=x^2$ et $g(x)=\cos(x)$
+
+## Exercice 2.2.B)
+Soient $f$ et $g$ deux fonctions. Déterminer une expression analytique de $f\circ g$ et $g\circ f$.
+
+- $f(x)=\sqrt{x}$ et $g(x)=\ln(x)$
+
+## Exercice 2.2.B)
+Soient $f$ et $g$ deux fonctions. Déterminer une expression analytique de $f\circ g$ et $g\circ f$.
+
+- $f(x)=\dfrac{x-1}{1+x}$ et $g(x)=x^3$
+
+## Exercice 2.2.B)
+Soient $f$ et $g$ deux fonctions. Déterminer une expression analytique de $f\circ g$ et $g\circ f$.
+
+Prépa:
+
+- $f(x)=\e^x$ et $g(x)=42\ln(x)$
+
+- $f(x)=\sin(2x)$ et $g(x)=4-7x$
+
+- $f(x)=\sin(x)$ et $g(x)=|1-x|$
+
+
+## Réciproque d'une fonction
+
+**Définition:** Soit $f$ une fonction. La réciproque de $f$ est une fonction (si elle existe) $g$ telle que $f\circ g=g\circ f=\text{Id}$.
+
+Graphiquement, la réciproque de $f$ est s'obtient par symétrique d'axe $x=y$.
+
+## Réciproque d'une fonction
+**Exemple:** $x^3$ a pour réciproque $\sqrt[3]{x}$.
+
+## Réciproque d'une fonction
+
+**Exemple:** $x^2$ n'a pas de réciproque. Mais restreinte à $\IR^{\ge 0}$, alors $x^2$ a une réciproque, la fonction $\sqrt{x}$.
+
+## Déterminer algébriquement une réciproque (2.2.C)
+
+$f(x)=2x+3$
+
+## $f(x)=|x|+2$
+
+
+## $f(x)=\dfrac{1-x}{x}$
+
+## Reste: prépa
+
+- $f(x)=x^2-6x+9$
+- $\dfrac{2x+1}{x+3}$
+- $f(x)=\sqrt[3]{x+1}$
+
+# Exponentielles et logarithmes
+
+## Exponentielles
+
+Soit $a\in\IR^{>0}\backslash\{1\}$ une base. L'exponentielle de base $a$, notée $a^x$, est une fonction dérivable qui prolonge les exposants de base $a$.
+
+![](figures/fig18.png){fig-align="center" width=40%}
+
+## Exponentielles
+
+Soit $a\in\IR^{>0}\backslash\{1\}$ une base. Les propriétés algébriques de $a^x$ sont: pour $m,n\in\IR$
+
+- $a^0=1$
+- $a^{m+n}=a^ma^n$
+- $a^{m-n}=\dfrac{a^m}{a^n}$
+- $a^{-m}=\dfrac{1}{a^m}$
+- $(a^m)^n=a^{mn}$
+
+La deuxième propriété dit: l'exponentielle transforme une somme ne un produit. En conséquence, une exponentielle croît ou décroît très vite.
+
+## Logarithmes
+
+Soit $a\in\IR^{>0}\backslash\{1\}$ une base. Le logarithme de base $a$, noté $\log_a(x)$, est la réciproque de $a^x$.
+
+![](figures/fig27.png){fig-align="center" width=40%}
+
+## Logarithmes
+
+Soit $a\in\IR^{>0}\backslash\{1\}$ une base. Les propriétés algébriques de $\log_a(x)$ sont obtenue par traduction de celles de $a^x$: pour $m,n\in\IR$
+
+- $\log_a(a^x)=x$ et $a^{\log_a(x)}=x$
+- $\log_a(1)=0$
+- $\log_a(mn)=\log_a(m)+\log_a(n)$
+- $\log_a(m/n)=\log_a(m)-\log_a(n)$
+- $\log_a(x^m)=m\log_a(x)$
+- si $b$ est une autre base: $\log_b(x)=\dfrac{\log_a(x)}{\log_a(b)}$
+
+## Exponentielle et logarithme népérien
+
+Une base est particulière: la base $\text{e}\simeq 2,718281828459045$. Pour cette base on note l'exponentielle $\text{e}^x$ et le logarithme $\ln(x)$. 
+
+## 2.3.A) (page 9)
+Soient $a$, $b$ et $c$ trois réels strictement positifs et différents de $1$. Prouvez que ${\log_a(b) \times \log_b(c) \times \log_c (a) = 1}$.
+
+## 2.3.B) (page 9)
+
+Exprimez les logarithmes suivants en fonction de multiples de $\ln (2)$, $\ln (3)$ ou $\ln (5)$ :
+
+- ${\ln (4)}$ 
+
+## 2.3.B) (page 9)
+
+Exprimez les logarithmes suivants en fonction de multiples de $\ln (2)$, $\ln (3)$ ou $\ln (5)$ :
+
+- ${\ln (6)}$
+
+## 2.3.B) (page 9)
+
+Exprimez les logarithmes suivants en fonction de multiples de $\ln (2)$, $\ln (3)$ ou $\ln (5)$ :
+
+- ${\ln (8)}$
+
+## 2.3.B) (page 9)
+
+Exprimez les logarithmes suivants en fonction de multiples de $\ln (2)$, $\ln (3)$ ou $\ln (5)$ :
+
+- ${\ln (9)}$
+
+## 2.3.B) (page 9)
+
+Exprimez les logarithmes suivants en fonction de multiples de $\ln (2)$, $\ln (3)$ ou $\ln (5)$ :
+
+- ${\ln (10)}$
+
+## 2.3.B) (page 9)
+
+Exprimez les logarithmes suivants en fonction de multiples de $\ln (2)$, $\ln (3)$ ou $\ln (5)$ :
+
+- ${\ln (0,5)}$
+
+
+## 2.3.B) (page 9)
+
+Le reste est à faire à la maison.
+
+## 2.3.C) (page 9)
+
+En sachant que $\log (2) \simeq 0,301$, déterminez ce que vaut approximativement :
+
+- ${\log (4)}$ 
+
+## 2.3.C) (page 9)
+
+En sachant que $\log (2) \simeq 0,301$, déterminez ce que vaut approximativement :
+
+- ${\log (0,2)}$
+
+## 2.3.C) (page 9)
+
+En sachant que $\log (2) \simeq 0,301$, déterminez ce que vaut approximativement :
+
+- ${\log \left(\frac{1}{16}\right)}$
+
+## 2.3.C) (page 9)
+
+En sachant que $\log (2) \simeq 0,301$, déterminez ce que vaut approximativement :
+
+- ${\log (0,00064)}$
+
+## 2.3.C) (page 9)
+
+Le reste est à faire à la maison.
+
+## 2.3.D) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${\ln (x) = 8}$
+
+## 2.3.D) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${\ln (x+1) = 4}$
+
+## 2.3.D) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${\log \left(\frac{5}{x}\right) = 2}$
+
+## 2.3.D) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${\log (x - 5) =0}$
+
+## 2.3.D) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${\ln (2x-3) - \ln (x-4) = 2 \ln (5)}$
+
+## 2.3.D) (page 9)
+ 
+Le reste est à faire à la maison.
+
+## 2.3.E) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${\e ^{4x -1} =0}$
+
+## 2.3.E) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${10^{2x} = 20}$
+
+## 2.3.E) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${\e^{2x} - \e^{2x+1} +1 = e}$
+
+## 2.3.E) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${\e ^{2x} + \e ^x -2 = 0}$
+
+## 2.3.E) (page 9)
+
+Résolvez les équations suivantes dans $\IR$ :
+
+- ${9 \times 2^x = 4 \times 3^x}$
+
+## 2.3.E) (page 9)
+
+Le reste est à faire à la maison.
